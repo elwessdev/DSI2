@@ -1,0 +1,27 @@
+/* connexion.component.css or connexion.component.scss */
+.connexion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 130px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button[mat-button] {
+  background-color: #3f51b5;
+  color: white;
+  align-self: flex-end;
+}
+
+button[mat-button]:hover {
+  background-color: #303f9f;
+}

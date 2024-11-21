@@ -1,0 +1,35 @@
+/* app.component.css or app.component.scss */
+mat-toolbar {
+  background-color: #727272;
+  color: white;
+  padding: 0 16px;
+}
+
+.example-icon {
+  color: white;
+}
+
+.example-label {
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.example-button-row {
+  display: flex;
+  gap: 10px;
+}
+
+// .example-button-row a {
+//   color: white;
+//   text-decoration: none;
+//   font-weight: 700;
+//   padding: 0;
+// }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.favorite-icon {
+  color: red;
+}
